@@ -42,6 +42,31 @@
     justify-content: space-around;
 }
 
+/* TEST */
+.show-details {
+  cursor: pointer;
+  color: #1ea9ff;
+  text-decoration: underline;
+  border: none;
+  background: none;
+}
+
+.details {
+  padding: 2px;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+  .details.active {
+    display: inline;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+
+
+/* TEST SLUT */
 * {
     box-sizing: border-box;
   }
