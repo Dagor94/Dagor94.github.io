@@ -65,6 +65,10 @@
     transition: 0.5s;
   }
 
+  .details p {
+    font-size: 15px;
+  }
+
 
 /* TEST SLUT */
 * {
