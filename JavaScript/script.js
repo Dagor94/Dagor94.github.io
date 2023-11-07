@@ -1,19 +1,19 @@
 function showMore(id) {
-  var btnText = document.querySelector('.show-details');
-  var detailsText = document.querySelector('.details');
+  var btnText = document.getElementById(id);
+  var detailsText = document.getElementById(id + '-details'); // Tilføj "-details" til ID for at finde det tilhørende detalje-element
 
   if (detailsText.style.display === "none" || detailsText.style.display === "") {
-    btnText.innerHTML = "Vis mindreTEST";
+    btnText.innerHTML = "Vis mindre";
     detailsText.classList.add('active');
     detailsText.style.opacity = "1";
     detailsText.style.display = "inline";
-    detailsText.style.transition = "0.5";
+    detailsText.style.transition = "0.5s";
   } else {
-    btnText.innerHTML = "Vis detaljerTEST";
+    btnText.innerHTML = "Vis detaljer";
     detailsText.classList.remove('active');
     detailsText.style.opacity = "0";
     detailsText.style.display = "none";
-    detailsText.style.transition = "0.5";
+    detailsText.style.transition = "0.5s";
   }
 }
 
