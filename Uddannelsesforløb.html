@@ -142,110 +142,101 @@
                     <h5>August 2023 - Oktober 2023 - (10 uger)</h5><br>
                     <h4>Karakter: 11.0 gennemsnit</h4><br>
                     <p>Fokuset på 1. hovedforløb er at gøre eleverne mere komfortable med at kode, etablere grundlæggende koncepter inden for programmering og lærer om databaser. Dette gives til udtryk i tværfagligheden på hovedforløbet da flere fag går på tværs af hinanden.</p><br>
-                        <h3>Fag:</h3><br>
-                        <li><strong>Grundlæggende Programmering</strong><button class="show-details" onclick="showMore(this)">Vis Detaljer</button></li>
-                        <div class="details" id="programming">
-                            <p>Faget fokuserede på at give en bred forståelse af programmeringskoncepter og -værktøjer, så man er i stand til at udvikle effektive og pålidelige programmer, såsom;</p>
-                            <ul>
-                                <li>- Git & versionsstyring</li>
-                                <li>- Debugging</li>
-                                <li>- Unit testing</li>
-                                <li>- Clean code</li>
-                                <li>- Generel koding</li>
-                            </ul>
-                        </div><br>
-
-                        <li><strong>Objektorienteret Programmering (1/2)</strong><button class="show-details" onclick="showMore(this)">Vis Detaljer</button></li>
-                        <div class="details" id="OOP1">
-                            <p>Praktisk erfaring og dybere forståelse af OOP-koncepter til udvikling af komplekse programmer og softwareløsninger. Emnerne som blev gennemgået var:</p>
-                            <ul>
-                                <li>- Klasser</li>
-                                <li>- Objekter</li>
-                                <li>- Exeception Handling</li>
-                                <li>- Indkapsling</li>
-                                <li>- Polymorfi</li>
-                                <li>- Nedarvning</li>
-                                <li>- Acess Modifiers</li>
-                                <li>- Override og Overload metoder</li>
-                            </ul>
-                        </div><br>
-
-                        <li><strong>Clientsideprogrammering (1/2)</strong></li>
+                    <h3>Fag:</h3><br>
+                    <li><strong>Grundlæggende Programmering&emsp;</strong><button class="show-details" id="programming" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="programming-details">
+                        <p>Faget fokuserede på at give en bred forståelse af programmeringskoncepter og -værktøjer, så man er i stand til at udvikle effektive og pålidelige programmer, såsom;</p>
                         <ul>
-                            <li>
-                                Grundlæggende forståelse af web-programmering og -udvikling med færdigheder til at bygge en simpel webside. Emner gennemgået var:
-                                <ul>
-                                    <li>- HTML Syntaks</li>
-                                    <li>- CSS</li>
-                                    <li>- Box Modellen</li>
-                                    <li>- Bootstrap</li>
-                                    <li>- Client Server Akitektur</li>
-                                </ul>
-                            </li>
-                        </ul><br>
-
-                        <li><strong>Databasprogrammering (1/3)</strong></li>
-                        <ul>
-                            <li>
-                                Grundlæggende forståelse for at programmere med relationelle databaser og færdigheder i oprettelse, administration og forespørgsler med T-SQL. Fik kendskab til følgende elementer;
-                                <ul>
-                                    <li>- T-SQL</li>
-                                    <li>- Tabeller, kolonner & felter</li>
-                                    <li>- CRUD-implementering i C#</li>
-                                    <li>- Nøgler og relationer</li>
-                                    <li>- Aggregering, subqueries og Joins</li>
-                                </ul>
-                            </li>
-                        </ul><br>
-
-                        <li><strong>Serverteknologi 1 - Databaseserver</strong></li>
-                        <ul>
-                            <li>
-                                Færdigheder til at administrere og optimere en Microsoft SQL-server og dens databaser, der var fokus på driften af en server. Fik kendskab til følgende elementer;
-                                <ul>
-                                    <li>- Introduktion til Relationelle Databaser</li>
-                                    <li>- Administration af brugeres rettigheder og adgang</li>
-                                    <li>- SQLCMD - SQL Syntaks introduktion</li>
-                                    <li>- Backups og Recovery - Fokus på backup strategier og metoder</li>
-                                    <li>- Metadata, Monitorering og Optimering af en database</li>
-                                    <li>- Views og Stored Procedures</li>
-                                </ul>
-                            </li>   
-                        </ul><br>
-                        <li><strong>Netværk</strong></li>
-                        <ul>
-                            <li>
-                                Faget var delt op i to dele - Infrastruktur og Programmering.
-                                <br>Infrastrukturdelen havde fokus på:
-                                <ul>
-                                    <li>- Repetition af OSI-modellen, IPV4 og DHCP</li>
-                                    <li>- Opbygning af et segmenteret neværk</li>
-                                    <li>- VLAN og NAT</li>
-                                </ul>
-                                <br>Programmeringsdelen fokuserede på kodning af applikationer til "Netværksfaget" - hovedsageligt hvordan man fik et program til at kunne Subnette IPv4 addresser. Der var fokus på følgende:
-                                <ul>
-                                    <li>- WPF - C# teknologi</li>
-                                    <li>- Subnetting</li>
-                                    <li>- Generel Kodestruktur og benyttelse af OOP</li>
-                                    <li>- Talsystemer og talkonvertering</li>
-                                </ul>
-                            </li>
-                        </ul><br>
-
-                        <li><strong>Computerteknologi</strong></li>
-                        <ul>
-                            <li>
-                                Fokus på Docker som teknologi og virtualisering generelt, med henblik på hvordan det virker, hvordan man bruger det og hvorfor det er blevet en industri standard i mange virksomheder i dag.
-                                <ul>
-                                    <li>- Virtualisering og Containere</li>
-                                    <li>- Docker</li>
-                                    <li>- Docker Compose</li>
-                                    <li>- Docker Images</li>
-                                    <li>- Docker Network</li>
-                                    <li>- Introduktion til RAID og Kubernetes</li>
-                                </ul>
-                            </li>
+                            <li>- Git & versionsstyring</li>
+                            <li>- Debugging</li>
+                            <li>- Unit testing</li>
+                            <li>- Clean code</li>
+                            <li>- Generel koding</li>
                         </ul>
+                    </div><br>
+
+                    <li><strong>Objektorienteret Programmering (1/2)&emsp;</strong><button class="show-details" id="OOP1" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="OOP1-details">
+                        <p>Praktisk erfaring og dybere forståelse af OOP-koncepter til udvikling af komplekse programmer og softwareløsninger. Emnerne som blev gennemgået var:</p>
+                        <ul>
+                            <li>- Klasser</li>
+                            <li>- Objekter</li>
+                            <li>- Exeception Handling</li>
+                            <li>- Indkapsling</li>
+                            <li>- Polymorfi</li>
+                            <li>- Nedarvning</li>
+                            <li>- Acess Modifiers</li>
+                            <li>- Override og Overload metoder</li>
+                        </ul>
+                    </div><br>
+
+                    <li><strong>Clientsideprogrammering (1/2)&emsp;</strong><button class="show-details" id="CSP1" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="CSP1-details">
+                        <p>Grundlæggende forståelse af web-programmering og -udvikling med færdigheder til at bygge en simpel webside. Emner gennemgået var:</p>
+                        <ul>
+                            <li>- HTML Syntaks</li>
+                            <li>- CSS</li>
+                            <li>- Box Modellen</li>
+                            <li>- Bootstrap</li>
+                            <li>- Client Server Akitektur</li>
+                        </ul>
+                    </div><br>
+
+                    <li><strong>Databasprogrammering (1/3)&emsp;</strong><button class="show-details" id="DBP1" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="DBP1-details">
+                        <p>Grundlæggende forståelse for at programmere med relationelle databaser og færdigheder i oprettelse, administration og forespørgsler med T-SQL. Fik kendskab til følgende elementer;</p>
+                        <ul>
+                            <li>- T-SQL</li>
+                            <li>- Tabeller, kolonner & felter</li>
+                            <li>- CRUD-implementering i C#</li>
+                            <li>- Nøgler og relationer</li>
+                            <li>- Aggregering, subqueries og Joins</li>
+                        </ul>
+                    </div><br>
+
+                    <li><strong>Serverteknologi 1 - Databaseserver&emsp;</strong><button class="show-details" id="ST1DB" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="ST1DB-details">
+                        <p>Færdigheder til at administrere og optimere en Microsoft SQL-server og dens databaser, der var fokus på driften af en server. Fik kendskab til følgende elementer;</p>
+                        <ul>
+                            <li>- Introduktion til Relationelle Databaser</li>
+                            <li>- Administration af brugeres rettigheder og adgang</li>
+                            <li>- SQLCMD - SQL Syntaks introduktion</li>
+                            <li>- Backups og Recovery - Fokus på backup strategier og metoder</li>
+                            <li>- Metadata, Monitorering og Optimering af en database</li>
+                            <li>- Views og Stored Procedures</li>
+                        </ul>
+                    </div><br>
+
+
+                    <li><strong>Netværk&emsp;</strong><button class="show-details" id="Network" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="Network-details">
+                        <p>Faget var delt op i to dele - Infrastruktur og Programmering.<br>Infrastrukturdelen havde fokus på:</p>
+                        <ul>
+                            <li>- Repetition af OSI-modellen, IPV4 og DHCP</li>
+                            <li>- Opbygning af et segmenteret neværk</li>
+                            <li>- VLAN og NAT</li>
+                        </ul><br>
+                        <p>Programmeringsdelen fokuserede på kodning af applikationer til "Netværksfaget" - hovedsageligt hvordan man fik et program til at kunne Subnette IPv4 addresser. Der var fokus på følgende:</p>
+                        <ul>
+                            <li>- WPF - C# teknologi</li>
+                            <li>- Subnetting</li>
+                            <li>- Generel Kodestruktur og benyttelse af OOP</li>
+                            <li>- Talsystemer og talkonvertering</li>
+                        </ul>
+                    </div><br>
+
+                    <li><strong>Computerteknologi&emsp;</strong><button class="show-details" id="ComTech" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="ComTech-details">
+                        <p>Fokus på Docker som teknologi og virtualisering generelt, med henblik på hvordan det virker, hvordan man bruger det og hvorfor det er blevet en industri standard i mange virksomheder i dag.</p>
+                        <ul>
+                            <li>- Virtualisering og Containere</li>
+                            <li>- Docker</li>
+                            <li>- Docker Compose</li>
+                            <li>- Docker Images</li>
+                            <li>- Docker Network</li>
+                            <li>- Introduktion til RAID og Kubernetes</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -276,71 +267,84 @@
             <div class="container left">
                 <div class="content">
                     <h2>Hovedforløb 2</h2>
-                    <h5>April 2024 - Juni 2024 (10 uger)</h5>
-                    <br>
-                    <h4>Karakter: XX</h4>
-                    <br>
-                    <p>H2 forsætter i det spor som H1 lagde i forhold til programmering og databaser. Formålet er dermed at at forbinde fagene bedst muligt og det sker med OOP, Databaseprogrammering og GUI-programmering. Som alle sættes i relation til et fælles projekt.</p>
-                    <br>
-                    <h3>Fag:</h3>
-                    <br>
-                        <li>Objektorienteret Programmering (2/2)</li>
-                        <ul>
-                            <li>
-                                Fortsættelse af faget "OOP" fra H1, hvor der vil være fokus på repetition og udbygning af kendte begreber fra H1, samt introduktion af nye begreber, blandt andet threading, Lambda- og anonyme metoder.
-                            </li>
-                        </ul><br>
-                        <li>Databasprogrammering (2/3)</li>
-                        <ul>
-                            <li>
-                                Fortsættelse af faget fra H1 - der vil være fokus på mere komplicerede queries, triggers og hvordan man sikre sin database mod angreb samt en introduktion til ORMs.
-                            </li>
-                        </ul><br>
-                        <li>GUI - Programmering (1/2)</li>
-                        <ul>
-                            <li>
-                                Fokus vil være på programmering af en grafisk brugerflade - enten WPF eller Avalonia - med baggrund i en MVVM opbygning.
-                            </li>
-                        </ul><br>
-                        <li>Clientsideprogrammering (2/2)</li>
-                        <ul>
-                            <li>
-                                Dette bygger videre på faget fra H1, dog med fokus på JavaScript fremfor HTML og CSS. Formålet er at kunne benytte JavaScript til at give en webside funktionalitet, og benytte JQuery og AJAX til at kommunikere med en backend web service.
-                            </li>
-                        </ul><br>
-                        <li>Serveradministration og sikkerhed</li>
-                        <ul>
-                            <li>
-                                Fokus på serveradministration i forhold til et client-serversystem. Dette fag er derfor fokus på AD domain services som DHCP og DNS samt hvordan man optimere sikkerheden på AD og applikationer på serveren. derudover vil følgende også blive lagt vægt på:
-                                <ul>
-                                    <li>- Konfiguration af domæner og domæneskove og redegørelse for trusts og sites.</li>
-                                    <li>- Oprettelse og administration af bruger- og gruppekonti, samt tilladelser til forskellige ressourcer.</li>
-                                    <li>- Konfiguration af Backup, Recovery og replikering af Active Directory.</li>
-                                    <li>- Anvendelse af lokal sikkerhed på et netværk, herunder omdøbe konti, ændre konto-egenskaber, administration af brugerkonti herunder resette password og slette konti.</li>
-                                    <li>- Administration af en Member Server, lokale sikkerheds- og gruppepolitikker, herunder implementering, auditering og auditpolitik, sikkerhedslog, krypteret filesystem og anvendelse af hjælpeværktøjer til sikkerhedskonfiguration.</li>
-                                    <li>- Administration og Konfiguration af Domain Controllerens lokale sikkerhed, gruppe, domain og Site politikker og rangfølgen af implementerede politikker</li>
-                                </ul>
-                            </li>
-                        </ul><br>
-                        <li>Serverteknologi 2</li>
-                        <ul>
-                            <li>
-                                Faget har fokus på sikkerhed på serverniveau samt administration.
-                                <ul>
-                                    <li>- Installere og konfigurere serversystem med netværkstjenester som DHCP, DNS, Firewall/Routing.</li>
-                                    <li>- Delegere DNS-zoner mellem flere servere.</li>
-                                    <li>- Opsætte fjernadgang og VPN på serveroperativsystemet.</li>
-                                    <li>- Konfigurere netværkssikkerhed med PKI, IPSec, Radius og lignende.</li>
-                                    <li>- Administrere storage og printning, samt brugertilladelser.</li>
-                                    <li>- Bruge værktøjer til administration, backup, overvågning og fejlretning.</li>
-                                    <li>- Forstå centrale cloudbaserede serverdriftsbegreber.</li>
-                                </ul>
-                            </li>
-                        </ul><br>
-                        <li>IT Service Management 1</li>
-                        <ul>
-                            <li>
-                                Her er der fokus på support delen af IT faget - faget arbejder med blandt andet:
+                    <h5>April 2024 - Juni 2024 (10 uger)</h5><br>
+                    <h4>Karakter: XX</h4><br>
+                    <p>H2 forsætter i det spor som H1 lagde i forhold til programmering og databaser. Formålet er dermed at at forbinde fagene bedst muligt og det sker med OOP, Databaseprogrammering og GUI-programmering. Som alle sættes i relation til et fælles projekt.</p><br>
+                    <h3>Fag:</h3><br>
+                    
+                        <li><strong>Objektorienteret Programmering (2/2)&emsp;</strong><button class="show-details" id="OOP2" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                        <div class="details" id="OOP2-details">
+                            <p>Fortsættelse af faget "OOP" fra H1, hvor der vil være fokus på repetition og udbygning af kendte begreber fra H1, samt introduktion af nye begreber herunder:</p>
+                            <ul>
+                                <li>- Threading</li>
+                                <li>- Lambda</li>
+                                <li>- Anonyme metoder</li>
+                            </ul>
+                        </div><br>
+
+                        <li><strong>Databasprogrammering (2/3)&emsp;</strong><button class="show-details" id="DBP2" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                        <div class="details" id="DBP2-details">
+                            <p>Fortsættelse af faget fra H1 - der vil være fokus på mere komplicerede queries, triggers og hvordan man sikre sin database mod angreb og andet såsom:</p>
+                            <ul>
+                                <li>- Beskyttelse mod SQL-Injection</li>
+                                <li>- Introduktion Til ORMs (Object relational Mapping)</li>
+                                <li>- Database koncepter i C# og hvordan de bruges</li>
+                            </ul>
+                        </div><br>
+                        
+                        <li><strong>GUI - Programmering (1/2)&emsp;</strong><button class="show-details" id="GUIP1" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                        <div class="details" id="GUIP1-details">
+                            <p>Fokus vil være på programmering af en grafisk brugerflade - enten WPF eller Avalonia - med baggrund i en MVVM opbygning. <br>Emner som bliver berørt:</p>
+                            <ul>
+                                <li>- MVVM</li>
+                                <li>- UI Design Pattern</li>
+                                <li>- Usability Test</li>
+                                <li>- Event Handling</li>
+                                <li>- Designe, udvikle og anvende "Custom-controls"</li>
+                            </ul>
+                        </div><br>
+                        
+                        <li><strong>Clientsideprogrammering (2/2)&emsp;</strong><button class="show-details" id="CSP2" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                        <div class="details" id="CSP2-details">
+                            <p>Dette bygger videre på faget fra H1, dog med fokus på JavaScript fremfor HTML og CSS. Formålet er at kunne benytte JavaScript til at give en webside funktionalitet, og benytte JQuery og AJAX til at kommunikere med en backend web service. <br> faget har introduceret følgende emner:</p>
+                            <ul>
+                                <li>- JavaScript</li>
+                                <li>- JQuery</li>
+                                <li>- AJAX - Asynchronous JavaScript And XML</li>
+                                <li>- Sikkerhedsaspekter forbundet med clientsideprogrammering</li>
+                            </ul>
+                        </div><br>
+                        
+                        <li><strong>Serveradministration og sikkerhed&emsp;</strong><button class="show-details" id="SoS" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                        <div class="details" id="SoS-details">
+                            <p>Fokus på serveradministration i forhold til et client-serversystem. Dette fag er derfor fokus på AD domain services som DHCP og DNS samt hvordan man optimere sikkerheden på AD og applikationer på serveren. derudover vil følgende også blive lagt vægt på:</p>
+                            <ul>
+                                <li>- Konfiguration af domæner og domæneskove og redegørelse for trusts og sites.</li>
+                                <li>- Oprettelse og administration af bruger- og gruppekonti, samt tilladelser til forskellige ressourcer.</li>
+                                <li>- Konfiguration af Backup, Recovery og replikering af Active Directory.</li>
+                                <li>- Anvendelse af lokal sikkerhed på et netværk, herunder omdøbe konti, ændre konto-egenskaber, administration af brugerkonti herunder resette password og slette konti.</li>
+                                <li>- Administration af en Member Server, lokale sikkerheds- og gruppepolitikker, herunder implementering, auditering og auditpolitik, sikkerhedslog, krypteret filesystem og anvendelse af hjælpeværktøjer til sikkerhedskonfiguration.</li>
+                                <li>- Administration og Konfiguration af Domain Controllerens lokale sikkerhed, gruppe, domain og Site politikker og rangfølgen af implementerede politikker</li>
+                            </ul>
+                        </div><br>
+
+                        <li><strong>Serverteknologi 2&emsp;</strong><button class="show-details" id="ST2" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                        <div class="details" id="ST2-details">
+                            <p>Faget har fokus på sikkerhed på serverniveau samt administration.<br>Hovedsageligt følgende emner:</p>
+                            <ul>
+                                <li>- Installere og konfigurere serversystem med netværkstjenester som DHCP, DNS, Firewall/Routing.</li>
+                                <li>- Delegere DNS-zoner mellem flere servere.</li>
+                                <li>- Opsætte fjernadgang og VPN på serveroperativsystemet.</li>
+                                <li>- Konfigurere netværkssikkerhed med PKI, IPSec, Radius og lignende.</li>
+                                <li>- Administrere storage og printning, samt brugertilladelser.</li>
+                                <li>- Bruge værktøjer til administration, backup, overvågning og fejlretning.</li>
+                                <li>- Forstå centrale cloudbaserede serverdriftsbegreber.</li>
+                            </ul>
+                        </div><br>
+
+                        <li><strong>IT Service Management 1&emsp;</strong><button class="show-details" id="ITSM1" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                        <div class="details" id="ITSM1-details">
+                            <p>Her er der fokus på support delen af IT faget <br>Faget arbejder med blandt andet:</p>
                                 <ul>
                                     <li>- Redegørelse af de almindelige roller, der findes i og omkring 1st level support og 2nd level support.</li>
                                     <li>- Service Requests opgaver - Hvad er det, hvordan benyttes det og hvordan optimere man det. </li>
@@ -348,6 +352,10 @@
                                     <li>- Problembeskrivelser ud fra analyse af objekter, indsamlede symptomer og gennemførte problemløsningsaktiviteter.</li>
                                     <li>- Finde, vurdere og anvende eksisterende viden og dokumentation til problemløsning og support.</li>
                                 </ul>
+                        </div>
+                        <ul>
+                            <li>
+                                
                             </li>
                         </ul><br>
                 </div>
@@ -369,42 +377,65 @@
             <div class="container left">
                 <div class="content">
                     <h2>Hovedforløb 3</h2>
-                    <h5>Oktober 2024 - December 2024 (10 uger)</h5>
-                    <br>
-                    <h4>Karakter: XX</h4>
-                    <br>
-                    <h3>Fag:</h3>
-                    <br>
-                    <li>Databasprogrammering (3/3)</li>
-                    <ul>
-                        <li>
-                            Ikke beskrevet
-                        </li>
-                    </ul><br>
-                    <li>App Programmering 1</li>
-                    <ul>
-                        <li>
-                            Ikke beskrevet
-                        </li>
-                    </ul><br>
-                    <li>GUI - Programmering (2/2)</li>
-                    <ul>
-                        <li>
-                            Ikke beskrevet
-                        </li>
-                    </ul><br>
-                    <li>Serversideprogrammering (1/2)</li>
-                    <ul>
-                        <li>
-                            Ikke beskrevet
-                        </li>
-                    </ul><br>
-                    <li>softwaretest og -sikkerhed (1/2)</li>
-                    <ul>
-                        <li>
-                            Ikke beskrevet
-                        </li>
-                    </ul><br>
+                    <h5>Oktober 2024 - December 2024 (10 uger)</h5><br>
+                    <h4>Karakter: XX</h4><br>
+                    <h3>Fag:</h3><br>
+
+                    <li><strong>Databasprogrammering (3/3)&emsp;</strong><button class="show-details" id="LRmSoE" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="LRmSoE-details">
+                        <p>Ikke beskrevet</p>
+                        <ul>
+                            <li>- </li>
+                            <li>- </li>
+                            <li>- </li>
+                            <li>- </li>
+                        </ul>
+                    </div><br>
+
+                    <li><strong>App Programmering I&emsp;</strong><button class="show-details" id="AppProg1" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="AppProg1-details">
+                        <p>Ikke beskrevet</p>
+                        <ul>
+                            <li>- </li>
+                            <li>- </li>
+                            <li>- </li>
+                            <li>- </li>
+                        </ul>
+                    </div><br>
+
+                    <li><strong>GUI - Programmering (2/2)&emsp;</strong><button class="show-details" id="GUIP2" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="GUIP2-details">
+                        <p>Ikke beskrevet</p>
+                        <ul>
+                            <li>- </li>
+                            <li>- </li>
+                            <li>- </li>
+                            <li>- </li>
+                        </ul>
+                    </div><br>
+
+                    <li><strong>Serversideprogrammering (1/2)&emsp;</strong><button class="show-details" id="ServersideProg1" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="ServersideProg1-details">
+                        <p>Ikke beskrevet</p>
+                        <ul>
+                            <li>- </li>
+                            <li>- </li>
+                            <li>- </li>
+                            <li>- </li>
+                        </ul>
+                    </div><br>
+
+                    <li><strong>Softwaretest og -sikkerhed (1/2)&emsp;</strong><button class="show-details" id="SoftwareToS1" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="SoftwareToS1-details">
+                        <p>Ikke beskrevet</p>
+                        <ul>
+                            <li>- </li>
+                            <li>- </li>
+                            <li>- </li>
+                            <li>- </li>
+                        </ul>
+                    </div><br>
+
                     <li>IT-kravsspecifikation</li>
                     <ul>
                         <li>
@@ -433,7 +464,7 @@
                     <h5>December 2024 - Januar 2025</h5>
                     <br>
                     <p>
-                        Periode i virksomhedspraktik - flere måneder.
+                        Periode i virksomhedspraktik - ≈1 måned.
                     </p>
                 </div>
             </div>
@@ -442,56 +473,61 @@
             <div class="container left">
                 <div class="content">
                     <h2>Hovedforløb 4</h2>
-                    <h5>Januar 2025 - Marts 2025 (10 uger)</h5>
-                    <br>
-                    <h4>Karakter: XX</h4>
-                    <br>
-                    <p>Det helt store emne på 4. hovedforløb er Internet of Things (IoT) og embedded programmering. Det gennemsyre flere af fagene på hovedforløbet blandt andet IoT og Embeddede systemer og Linux. ligeledes med Big Data bliver koblet sammen.</p>
-                    <br>
-                    <h3>Fag:</h3>
-                    <br>
-                    <li>Linux rettet mod server og Embedded</li>
-                    <ul>
-                        <li>
-                            Formålet med dette fag er et give indsigt i Linux systemer og miljø. Det vil blandt andet gennemgå følgende:
-                            <ul>
-                                <li>- Linux kommandoer</li>
-                                <li>- Linux System, shell- og programmeringsmiljø.</li>
-                                <li>- forskellige værktøjer og programmeringsmodellen til Linux</li>
-                                <li>- Programmeringsmodellen til forskellige Linux varianter, herunder Linux Server og embedded Linux</li>
-                            </ul>
-                        </li>
-                    </ul><br>
-                    <li>IoT Embeddede Systemer</li>
-                    <ul>
-                        <li>
-                            
-                        </li>
-                    </ul><br>
-                    <li>IoT og Embeddede Linux Systemer</li>
-                    <ul>
-                        <li>
-                            Ikke beskrevet
-                        </li>
-                    </ul><br>
-                    <li>Big data begreber, teknikker og processer</li>
-                    <ul>
-                        <li>
-                            Ikke beskrevet
-                        </li>
-                    </ul><br>
-                    <li>Big Data modeller og datamodellering</li>
-                    <ul>
-                        <li>
-                            Ikke beskrevet
-                        </li>
-                    </ul><br>
-                    <li>Machine Learning</li>
-                    <ul>
-                        <li>
-                            Ikke beskrevet
-                        </li>
-                    </ul><br>
+                    <h5>Januar 2025 - Marts 2025 (10 uger)</h5><br>
+                    <h4>Karakter: XX</h4><br>
+                    <p>Det helt store emne på 4. hovedforløb er Internet of Things (IoT) og embedded programmering. Det gennemsyre flere af fagene på hovedforløbet blandt andet IoT og Embeddede systemer og Linux. ligeledes med Big Data bliver koblet sammen.</p><br>
+                    <h3>Fag:</h3><br>
+                    
+                    <li><strong>Linux rettet mod server og Embedded&emsp;</strong><button class="show-details" id="LRmSoE" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="LRmSoE-details">
+                        <p>Formålet med dette fag er et give indsigt i Linux systemer og miljø.<br>Det vil blandt andet gennemgå følgende:</p>
+                        <ul>
+                            <li>- Linux kommandoer</li>
+                            <li>- Linux System, shell- og programmeringsmiljø.</li>
+                            <li>- forskellige værktøjer og programmeringsmodellen til Linux</li>
+                            <li>- Programmeringsmodellen til forskellige Linux varianter, herunder Linux Server og embedded Linux</li>
+                        </ul>
+                    </div><br>
+
+                    <li><strong>IoT Embeddede Systemer&emsp;</strong><button class="show-details" id="IoTES" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="IoTES-details">
+                        <p>Ikke beskrevet</p>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div><br>
+
+                    <li><strong>IoT og Embeddede Linux Systemer&emsp;</strong><button class="show-details" id="IoELS" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="IoELS-details">
+                        <p>Ikke beskrevet</p>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div><br>
+
+                    <li><strong>Big data begreber, teknikker og processer&emsp;</strong><button class="show-details" id="BDbtop" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="BDbtop-details">
+                        <p>Ikke beskrevet</p>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div><br>
+
+                    <li><strong>Big Data modeller og datamodellering&emsp;</strong><button class="show-details" id="BDMoDM" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="BDMoDM-details">
+                        <p>Ikke beskrevet</p>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div><br>
+
+                    <li><strong>Machine Learning&emsp;</strong><button class="show-details" id="MachineLearning" onclick="showMore(this.id)">Vis Detaljer</button></li>
+                    <div class="details" id="MachineLearning-details">
+                        <p>Ikke beskrevet</p>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div><br>
                 </div>
             </div>
 
@@ -502,7 +538,7 @@
                     <h5>April 2025 - September 2026</h5>
                     <br>
                     <p>
-                        Periode i virksomhedspraktik - ~1½ år.
+                        Periode i virksomhedspraktik - ≈1½ år.
                     </p>
                 </div>
             </div>
@@ -581,7 +617,7 @@
                     <h5>Januar 2027 - Februar 2027</h5>
                     <br>
                     <p>
-                        Periode i virksomhedspraktik - få måneder.
+                        Periode i virksomhedspraktik - ≈ få måneder.
                     </p>
                 </div>
             </div>
